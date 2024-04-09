@@ -1,0 +1,87 @@
+.home{
+    width: max-content;
+    height: 832px;
+    gap: 28px;
+}
+.home-main-content{
+    height: 832px;
+}.slideshow-container {
+    position: relative;
+    max-width: 400.27px;
+    padding: 30px 40px 30px 40px;
+    gap: 40px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: -webkit-center;
+  }
+  .hidden{
+    display: none;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+    text-align: -webkit-center;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .Home-p-content{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    display:block;
+    color: black;
+
+  }
+  .Home-button{
+    background: #2F667F;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    width: 130px;
+    height: 30px;
+
+  }
+  .Home-p-button{
+    background: #2F667F;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    display: grid;
+    width: 30px;
+
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 2.5s ease;
+  }
+  
+  .active {
+    background-color: rgb(23, 23, 23);
+    display: inline;
+  }
+  

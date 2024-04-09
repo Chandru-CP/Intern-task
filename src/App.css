@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: flex;
+  width: -webkit-fill-available;
+  background-color: #eaeaea;
+}
+
+.sidecontent{
+  width: -webkit-fill-available;
+}
+

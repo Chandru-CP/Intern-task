@@ -1,0 +1,77 @@
+.navbar{
+    display: flex;
+}
+.navbar-left{
+    float: left;
+    height: 50px;
+    width: fit-content;
+    display: contents;
+}
+.input-box{
+    width:360.95px;
+    height: 34.67px;
+}
+.navbar-left ul li{
+    list-style:none;
+    padding-left: 20px;
+}
+.navbar-right{
+    width: -webkit-fill-available;
+    padding-right: 30px;
+}
+.navbar-right ul li{
+    list-style:none;
+    float: left;margin: 5px;
+}
+
+.navbar-right ul{
+    float:right;
+    margin: 0;
+    
+}
+.content-button{
+    border-radius: 10.33px;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: bold;
+    height:39.33px;
+    padding: 9.83px 23.6px 9.83px 15.73px;
+    gap: 7.87px;
+    border: 1px solid rgb(64, 64, 64); 
+    margin: 10px;
+}
+.use{
+    color: rgb(63, 164, 195);
+    background-color: white;
+}
+.use:hover{
+    background-color: rgb(63, 164, 195);
+    color: white;
+    border-color: rgb(63, 164, 195);
+}
+.active-button{
+    background-color: rgb(63, 164, 195);
+    color: white;
+    border-color: rgb(63, 164, 195);
+}
+.not-use{
+    color: gray;
+}
+.graph{
+    text-align: -webkit-left;
+}
+.right-icon{
+    height: 31px;
+    width: 31px;
+    box-shadow: 0.89px 0.89px 2.67px 0px #0000001A;
+    border-radius: 50%;
+}
+.container{
+    text-align: -webkit-center;
+    text-align-last: center;
+}
+
+
+
+
+

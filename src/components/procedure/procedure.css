@@ -1,0 +1,167 @@
+.pentagon {
+    position: relative;
+    display: inline-block;
+  }
+  .procedure{
+    height:833px;
+    width:940.22px;
+padding: 106.67px 0px 0px 0px;
+gap: 27.56px;
+overflow-x: clip;
+margin-right: 30px;
+
+  }
+.procedure-content{
+    align-content: space-around;
+    padding: 30px;
+    width: max-content;
+
+}.timing-details{
+  width: max-content;
+}
+.card {
+  width: 134.28px;
+  height: 100.51px; 
+  background: #F1F7ED;
+  margin-left: 10%;
+  display: inline-flex; /* Display cards inline */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+.timing-detail-span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  color: #707070;
+  text-align: center;
+}
+
+.arrow1 {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right-arrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: max-content;
+    height: min-content;
+  }
+  .left-arrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    width: max-content;
+    height: min-content;
+  }
+  .flow-time{
+    width: 950.15px;
+height: 19.63px;
+top: 630.02px;
+left: 297.61px;
+gap: 134.28px;
+
+
+  }
+  .overview{
+    width: fit-content;
+    padding-right: 100px;
+    font-family: Poppins;
+font-size: 18.85px;
+font-weight: 600;
+line-height: 19.63px;
+text-align: left;
+
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%; /* Cover the entire container */
+    height: 100%; /* Cover the entire container */
+    align-content: space-evenly;
+    text-align: -webkit-left;
+    color: white;
+    transition: opacity 0.3s ease; /* Smooth transition */
+    margin-left: 8px;
+  }
+  
+  .overlay span{
+    font-family: Poppins;
+    font-size: 15.71px;
+    font-weight: 500;
+    line-height: 19.63px;
+    text-align: left;
+
+  }
+  /* Additional styling for text or content within the overlay */
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .clock{
+    width: 50.7px;
+    height: 50.7px;
+    padding: 4.23px 0px 0px 0px;
+    margin-top: 10px;
+    vertical-align: top;
+  }
+
+  .arrow{
+    vertical-align: top;
+    margin-top: 30px;
+
+  }
+  .procedure-flow-diagram {
+    max-width: 940px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Disable vertical scrolling */
+    white-space: nowrap;
+}
+
+/* Scrollbar Styles */
+.procedure-flow-diagram::-webkit-scrollbar {
+    height: 10px; /* Height of the scrollbar */
+}
+
+.procedure-flow-diagram::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Radius of the scrollbar thumb */
+}
+
+.procedure-flow-diagram::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.procedure-flow-diagram::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+.procedure-flow-diagram::-webkit-scrollbar-track:hover {
+    background-color: #ddd; /* Color of the scrollbar track on hover */
+}
+.procedure-button{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  background: #2F667F;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  width:93px;
+height: 40px;
+padding: 10px 24px 10px 24px;
+gap: 8px;
+
+
+
+}

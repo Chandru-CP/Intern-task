@@ -1,0 +1,50 @@
+.card-body{
+    width: 289.63px;
+    margin: 10px;
+    height:193.45px;
+    padding: 21.61px 0px 0px 0px;
+    gap: 3.24px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 0px #6D6D6D80;    
+}
+.left{
+    text-align: -webkit-left;
+    width: 162.11px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 15.13px;
+    font-weight: 300;
+    line-height: 21.61px;
+    text-align: left;
+
+
+}
+.left-title{
+width: Fixed (246.4px)px;
+height: 32.81px;
+padding: 0px 0px 10.81px 0px;
+gap: 10.81px;
+
+}
+.right{
+    text-align: -webkit-right;
+    width: 51.87px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 15.13px;
+    font-weight: 600;
+    line-height: 21.61px;
+    text-align: right;
+}
+table{
+    margin: 10px;
+    width: -webkit-fill-available;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    color: green;
+    border-radius: 50%;
+    display: inline-block;
+  }

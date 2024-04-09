@@ -1,0 +1,75 @@
+.Sidenavbar{
+    background: #2F667F;
+    color: white;
+    height: 800px;
+    text-align-last: start;
+    margin:20px 10px ;
+    padding:30px 20px ;
+    border-radius: 30px;
+    box-shadow: 8.89px 8.89px 12.62px 0px #00000040;
+}
+.top_side_navbar_li, .bottom_side_navbar_li{
+    list-style: none;
+    padding: 10px;
+    height:62.22px;
+    padding: 0px 22.22px 0px 22.22px;
+    gap: 15.11px;
+    border-radius: 17.78px 0px 0px 0px;
+    align-content: center;
+    font-family: Poppins;
+font-size: 17.78px;
+font-weight: 400;
+line-height: 17.78px;
+
+
+}
+.top_side_navbar_ul{
+    width: 236.44px;
+    height:350.22px;
+    gap: 9.78px;
+    padding: 12.44px 0px 12.44px 0px;
+border: 0.89px 0px 0px 0px;
+
+}
+.bottom_side_navbar_ul{
+    width:236.44px;
+height: 149.33px;
+padding: 12.44px 0px 12.44px 0px;
+border: 0.89px 0px 0px 0px;
+border-top: 0.89px solid #FFFFFF;
+
+}
+.selected{
+    border-radius: 5px;
+    background-color: rgb(87, 192, 224);
+}
+h2{
+    height: 47.11px;
+    gap: 10.67px;
+    text-align-last: center;
+}
+.side-icon{
+    width: 21.57px;
+height: 20.67px;
+padding: 1.78px 2.9px 0.22px 2.67px;
+}
+.main-icon{
+    width: 42.67px;
+height: 42.67px;
+padding: 3.56px;
+}
+h2 span{
+    width: 176.89px;
+    height: 47.11px;   
+    font-family: Poppins;
+    font-size: 42.67px;
+    font-weight: 600;
+    text-align: left;
+
+
+
+}
+.top_side_navbar_li span, .bottom_side_navbar_li span{
+
+height: 18px;
+}
